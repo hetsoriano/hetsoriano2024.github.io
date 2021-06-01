@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>4Q Project</title>
+        <meta charset="utf-8">
+        <meta name ="author" content = "AJ Carballo, HET Soriano, JM Santos  ">
+		<meta name ="keywords" content="HTML, CSS, JavaScript">
+		<meta name ="revised" content="05-14-2021">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+        
+        <style>
+            #c-f1{
+                padding: 0px;
+            }
+            #c-f2{
+                padding: 0px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url("https://scontent.fcrk1-3.fna.fbcdn.net/v/t1.18169-9/24296693_1745594548785642_6158382059142399046_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=e3f864&_nc_eui2=AeHncfnpin3vc1NJK431wdw3UygBWYye-mNTKAFZjJ76Y5VNUIeuVKeCf181ELG0guRtm4RfveiTUGARTIOOwY2d&_nc_ohc=6vUbeF4-UWEAX8FYMpE&_nc_ht=scontent.fcrk1-3.fna&oh=fa954ba4c05d670a131be177f199122b&oe=60D7FC30");
+                background-position: center; 
+            }
+            .transbox {
+                width: 100%;
+                padding: 120px 100px;
+                background-color: rgba(66, 80, 102, 0.5);
+            }
+            h1 {
+                Font-Family: 'Julius Sans One', Sans-Serif;
+                Font-Size: 50px;
+                font-weight: bold;
+                color: white;
+            }
+            .transbox>p, h1 {
+                
+                color: white;
+                width: 70%;
+            }
+            .card {
+                display: flex;
+                margin-left: 20px;
+                margin-bottom: 20px;
+                border-radius: 10px;
+                width: inherit;
+            }
+            .card-body {
+                background-color: rgb(66, 80, 102);
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+            .card-img-top {
+                border-top-right-radius: 10px;
+                border-top-left-radius: 10px;
+            }
+            .card-title,.card-text {
+                color: white;
+            }
+            .row justify-content-center {
+                display: inline-table;
+            }
+            h3 {
+                margin: 40px 90px;
+                Font-Family: 'Julius Sans One', Sans-Serif;
+                font-weight: bolder;
+                border-bottom: 2px solid black;
+            }
+            .btn {
+                background-color: #e0551f;
+                border: none;
+            }
+            .navbar-brand {
+                font-size: 25px;
+            }
+            .nav-item {
+                height: 50px;
+                font-size: 20px;
+            }
+            .back2top {
+                color: #e0551f;
+            }
+            .back2top:hover {
+                text-decoration: none;
+            }
+            h6 {
+                font-family: 'Julius Sans One', Sans-Serif;
+                color: lightgrey;
+            }
+            #pop {
+                color: lightgrey;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #e0551f;">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+				<a class="nav-link" href="4qna.html">CATALOG</a>
+				</li>
+			
+				<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+				<a class="nav-link" href="#total">GO TO CART</a>
+				</li>
+				
+				
+			</ul>
+			
+			<ul class="navbar-nav ml-auto">
+				
+				<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+				<a class="nav-link" href="devs.html">ABOUT US</a>
+				</li>
+			</ul>
+				
+		</div>
+    </nav>
+        <div class="container-fluid" id="c-f1">
+            
+            
+            
+            <div class="container-fluid" id="c-f2">
+                <div class="transbox">
+                    <h1>Bye Bye, Pisay!</h1>
+                    <p>(joke lang po) See you sa next school year (di po mawawala Pisay, di rin po kami part ng graduating* class.
+                    Sadyang natapos lang yung school year) hart hart (mahal po namin ang Pisay)</p>
+                </div>
+            </div>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#categ1">Campuses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#categ2">Subjects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#categ3">Miscellaneous Pisay Objects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#categ4" id="spec">PSHS-CLC Snacks & Drinks</a>
+                </li>
+            </ul>
+            <br><br id="categ1"><br>
+            
+            <div class="container-fluid" id="c-f3">
+                
+                <h3>Campuses <a class="back2top" href="#c-f1">&and;</a></h3>
+                <div class="row justify-content-center">
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://www.goodnewspilipinas.com/wp-content/uploads/2020/04/PSHS.jpg" class="card-img-top" alt="PSHS-Main Campus" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Philippine Science High School - Main Campus</h5>
+                                <h6 class="card-title">500,000 Php</h6>
+                                <p class="card-text">Address: Agham Rd, Diliman, Quezon City, Metro Manila</p>
+                                <a class="btn btn-primary" onclick="add('PSHS - Main Campus', 500000)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.18169-9/11145898_991866997491738_5268426514748266996_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=e3f864&_nc_eui2=AeHfkKULWjPeBTfMgPkTiakzNXQ07G4yrE41dDTsbjKsTvBQWJ8kwLqolAAbWiC3WuRhHtmLHQp7nLRQaejb2hhT&_nc_ohc=yapIzfKmIGIAX_jSux3&_nc_ht=scontent.fcrk1-1.fna&oh=c687f806a105a6586b24cf4ca1562dc6&oe=60D8782D" class="card-img-top" alt="PSHS-Central Luzon Campus" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Philippine Science High School - Central Luzon Campus</h5>
+                                <h6 class="card-title">500,000 Php</h6>
+                                <p class="card-text">Address: Lily Hill, Clark Freeport, Zone, Pampanga</p>
+                                <a class="btn btn-primary" onclick="add('PSHS - Central Luzon Campus', 500000)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://evc.pshs.edu.ph/images/header/pisayfront.jpg" class="card-img-top" alt="PSHS-Eastern Visayas Campus" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Philippine Science High School - Eastern Visayas Campus</h5>
+                                <h6 class="card-title">500,000 Php</h6>
+                                <p class="card-text">Address: AH26, Palo, 6501 Leyte</p><br>
+                                <a class="btn btn-primary" onclick="add('PSHS - Eastern Visayas Campus', 500000)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://tawidnewsmag.com/wp-content/uploads/2019/06/Philippine-Science-High-School-Ilocos-Region-Campus.jpg" class="card-img-top" alt="PSHS-Ilocos Region Campus" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Philippine Science High School - Ilocos Region Campus</h5>
+                                <h6 class="card-title">500,000 Php</h6>
+                                <p class="card-text">Address: San, Ildefonso, Ilocos Sur</p><br>
+                                <a class="btn btn-primary" onclick="add('PSHS - Ilocos Region Campus', 500000)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://pbs.twimg.com/media/DG_XelRV0AI_OcF.jpg" class="card-img-top" alt="PSHS-Southern Mindanao Campus" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Philippine Science High School - Southern Mindanao Campus</h5>
+                                <h6 class="card-title">500,000 Php</h6>
+                                <p class="card-text">Address: Davao-Bukidnon Rd, Tugbok, Davao City, Davao del Sur</p>
+                                <a class="btn btn-primary" onclick="add('PSHS - Southern Mindanao Campus', 500000)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXYCuzYa1yXIcfgU581rascapFfNBaBJMIzqSMyfCjD7i6vLfbXye4RaNSELEPbEM1BI&usqp=CAU" class="card-img-top" alt="PSHS-Cagayan Valley Campus" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Philippine Science High School - Cagayan Valley Campus</h5>
+                                <h6 class="card-title">500,000 Php</h6>
+                                <p class="card-text">Address: Bayombong - Ambaguio Road, Bayombong, Nueva Vizcaya</p>
+                                <a class="btn btn-primary" onclick="add('PSHS - Cagayan Valley Campus', 500000)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br id="categ2"><br>
+                
+                <h3>Subjects <a class="back2top" href="#c-f1">&and;</a></h3>
+                <div class="row justify-content-center">
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://lh6.googleusercontent.com/FMJyKXpCx1vc85CUB9qW9FWKMapSj9VYbqkPyUiGqz1GZG8fIOh4BnGgkMJpXhqnlQWxFx85M6gR6l-uA0k18KfYRyAjF4-UoWujYxraF2MhDjZ-7MM0a92gg5FjdzCpMxrY9HG-" class="card-img-top" alt="Physics 1" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Physics 1</h5>
+                                <h6 class="card-title">200 Php</h6>
+                                <p class="card-text">Physics studies matter, its motion and behavior through space and time, and more.</p>
+                                <a class="btn btn-primary" onclick="add('Physics 1', 200)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://journalistsresource.org/wp-content/uploads/2014/08/margin-of-error-Wikimedia.jpg" class="card-img-top" alt="Statistics 1" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Statistics 1</h5>
+                                <h6 class="card-title">300 Php</h6>
+                                <p class="card-text">Statistics is the discipline that concerns the collection, organization, etc. of data</p><br>
+                                <a class="btn btn-primary" onclick="add('Statistics 1', 300)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://media.nagwa.com/834148689702/en/thumbnail_l.jpeg" class="card-img-top" alt="Chemistry 1" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Chemistry 1</h5>
+                                <h6 class="card-title">150 Php</h6>
+                                <p class="card-text">Chemistry is the scientific study of the properties and behavior of matter.</p><br>
+                                <a class="btn btn-primary" onclick="add('Chemistry 1', 150)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://www.helioseducore.com/wp-content/uploads/2019/04/main-qimg-14c6a797dc0f0a95f6c3b03422d1c801.png" class="card-img-top" alt="Earth Science" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Earth Science</h5>
+                                <h6 class="card-title">70 Php</h6>
+                                <p class="card-text">Earth science is the study of the Earth's structure, properties, processes, and biotic evolution.</p>
+                                <a class="btn btn-primary" onclick="add('Earth Science', 70)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://i0.wp.com/www.brainpickings.org/wp-content/uploads/2012/04/humanbody9.jpg?ssl=1" class="card-img-top" alt="Biology 1" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Biology 1</h5>
+                                <h6 class="card-title">275 Php</h6>
+                                <p class="card-text">Biology is a natural science with a broad scope but has several unifying themes.</p>
+                                <a class="btn btn-primary" onclick="add('Biology 1', 275)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://image1.slideserve.com/2750265/slide1-n.jpg" class="card-img-top" alt="Mathematics 3" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Mathematics 3</h5>
+                                <h6 class="card-title">170 Php</h6>
+                                <p class="card-text">Mathematics is the study of numbers, shapes and patterns.</p><br>
+                                <a class="btn btn-primary" onclick="add('Mathematics 3', 170)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br id="categ3"><br>
+                
+                <h3>Miscellaneous Pisay Objects <a class="back2top" href="#c-f1">&and;</a></h3>
+                <div class="row justify-content-center">
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://service.pcconnection.com/images/inhouse/7B24E53C-545C-4B35-AB20-94C34D13A544.jpg" class="card-img-top" alt="Scientific Calculator" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Scientific Calculator</h5>
+                                <h6 class="card-title">7,000 Php</h6>
+                                <p class="card-text">Very, very, very important.</p><br>
+                                <a class="btn btn-primary" onclick="add('Scientific Calculator', 7000)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://static2.jetpens.com/images/a/000/077/77692.jpg?ba=middle%2Ccenter&balph=3&blend64=aHR0cDovL3d3dy5qZXRwZW5zLmNvbS9pbWFnZXMvYXNzZXRzL3dhdGVybWFyazIucG5n&bm=difference&bs=inherit&mark64=aHR0cDovL3d3dy5qZXRwZW5zLmNvbS9pbWFnZXMvYXNzZXRzL3dhdGVybWFyazEucG5n&markalign=top%2Cright&markalpha=30&markscale=16&q=90&w=600&s=8a7424b3b410ce615befbd596a64aec8" class="card-img-top" alt="G-TEC Ballpen" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">G-TEC Ballpen</h5>
+                                <h6 class="card-title">100 Php</h6>
+                                <p class="card-text">Very nice for writing notes.</p><br>
+                                <a class="btn btn-primary" onclick="add('G-TEC Ballpen', 100)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://image.shutterstock.com/image-photo/volleyball-ball-isolated-on-white-260nw-506658289.jpg" class="card-img-top" alt="Volleyball" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Volleyball</h5>
+                                <h6 class="card-title">450 Php</h6>
+                                <p class="card-text">You'll most likely need to use one before graduating from Pisay.</p>
+                                <a class="btn btn-primary" onclick="add('Volleyball', 450)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=%5B12800%2C5000%5D&w=1600&h=800&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2019%2F09%2Frepel-windproof-travel-umbrella.jpg" class="card-img-top" alt="Foldable Umbrella" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Foldable Umbrella</h5>
+                                <h6 class="card-title">200 Php</h6>
+                                <p class="card-text">For rainy days and sunny days, it is very useful.</p>
+                                <a class="btn btn-primary" onclick="add('Foldable Umbrella', 200)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,h_337,q_auto,w_600/c_pad,h_337,w_600/Y1463621-01?pgw=1" class="card-img-top" alt="Lab Coat" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Lab Coat</h5>
+                                <h6 class="card-title">375 Php</h6>
+                                <p class="card-text">Very Important./</p><br>
+                                <a class="btn btn-primary" onclick="add('Lab Coat', 375)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9elNBr25Aq_ZVB0F6QtvUDlvB_WcDAK9Eyw&usqp=CAU" class="card-img-top" alt="UNO Cards" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">UNO Cards</h5>
+                                <h6 class="card-title">180 Php</h6>
+                                <p class="card-text">Not allowed, but very fun to play with many people.</p>
+                                <a class="btn btn-primary" onclick="add('UNO Cards', 180)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br id="categ4"><br>
+                
+                <h3>PSHS-CLC Snacks & Drinks <a class="back2top" href="#c-f1">&and;</a></h3>
+                <div class="row justify-content-center">
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://i0.wp.com/www.kusina-master-recipes.com/wp-content/uploads/2018/11/Pork-and-Shrimp-Siomai-Recipe.jpg?fit=530%2C373" class="card-img-top" alt="Siomai" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Siomai</h5>
+                                <h6 class="card-title">60 Php</h6>
+                                <p class="card-text">Everybody knows what siomai is.</p><br><br>
+                                <a class="btn btn-primary" onclick="add('Siomai', 60)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://i.pinimg.com/originals/06/3f/7f/063f7fa44ecefcd232a5004ac5ab0987.png" class="card-img-top" alt="Cheese Stick" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Cheese Stick</h5>
+                                <h6 class="card-title">50 Php</h6>
+                                <p class="card-text">Sometimes hot, more times than often, cold and greasy. But still good, lalo na with sauce.</p>
+                                <a class="btn btn-primary" onclick="add('Cheese Stick', 50)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://i2.wp.com/www.cookingpinoy.com/wp-content/uploads/2019/01/Easy-Kwek-Kwek-With-Sauce-Recipe.jpg?fit=644%2C320&ssl=1" class="card-img-top" alt="Kwek-Kwek" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Kwek-Kwek</h5>
+                                <h6 class="card-title">30 Php</h6>
+                                <p class="card-text">No, its not an orange. It looks like it, but it is actually an egg.</p><br>
+                                <a class="btn btn-primary" onclick="add('Kwek-Kwek', 30)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://ak.picdn.net/shutterstock/videos/1022217388/thumb/1.jpg" class="card-img-top" alt="Greasy Bag Fries" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Greasy Bag Fries</h5>
+                                <h6 class="card-title">40 Php</h6>
+                                <p class="card-text">Basically greasy fries in a greasy paper bag.</p><br>
+                                <a class="btn btn-primary" onclick="add('Greasy Bag Fries', 40)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://jayagonoy.xyz/wp-content/uploads/1_ercLvx3PGhuHSCCfY4MPsw.jpg" class="card-img-top" alt="..." style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">B'lue drink</h5>
+                                <h6 class="card-title">75 Php</h6>
+                                <p class="card-text">Looks like water, but it is not, probably.</p><br><br>
+                                <a class="btn btn-primary" onclick="add('B'lue Drink', 75)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-in" style="width: 20rem;">
+                            <img src="https://pbs.twimg.com/media/Djq9kqkV4AEG2d0.jpg" class="card-img-top" alt="Ice Cream" style="height: 160px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Creamline Ice Cream</h5>
+                                <h6 class="card-title">20 Php</h6>
+                                <p class="card-text">Cold. Perfect if its mainit, so basically, everyday.</p><br>
+                                <a class="btn btn-primary" onclick="add('Creamline Ice Cream', 20)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <div class ="row justify-content-center">
+                <div class="cart">
+		          <br><br><br><br>
+                    <h3>Your Cart:</h3>
+                    <div id = "incart"> 
+                        <div id="cart"> 
+				            <p>N/A</p>
+                        </div>
+                    <h4 id="total">Total: PHP</h4>
+                    </div>
+                </div>
+        <div class="col-sm-5 product">
+		<br><br><br><br>
+            <h3>contact details:</h3>
+            <div class="products">
+            <form action="http://savantandsparktest.ml/checkout.php" method="post">
+                 <label class = "defaultlabelsucks"> Name</label>
+                 <input class="form-control" id="name" type="text" name = "cust_name">
+                 <label class = "defaultlabelsucks"> Email</label>
+                 <input class="form-control" id="email" type="text" name = "cust_email">
+                 <label class = "defaultlabelsucks"> Address</label>
+                 <input class="form-control" id="address" type="text" name = "cust_addr">
+				 
+				 <input class="form-control" id="order" type="text" name="cust_order" style="display: none">
+                    <br>
+                    <input type="submit" value="Submit" class="btn btn-dark">
+                </form>
+            </div>
+        </div>
+    </div>
+            <br><hr><p id="pop">Copyright © 2021 All rights reserved.</p><br>
+            
+        </div>
+        <script>
+		  let shop = {
+            	custOrder: []
+        		}	
+        	let cart = false
+        	let productID = 0
+        	let productCount = 0
+        	let totalPrice = 0
+
+        	function add(name, price){
+            	if(cart === false){
+                	document.getElementById("cart").innerHTML = ""
+                	cart = true
+            	}
+            	productCount += 1
+            	totalPrice += price
+            	console.log(`Ordering: ${name}\nPrice: ${price}\nTotal: ${totalPrice}`)
+
+            	document.getElementById("cart").innerHTML += `
+            	<div id="${productID}" style="margin: 0; border-bottom: 1px solid black; padding: 10px">
+                	<p style="margin: 0"><b>${name}</b>   <span id="remove${productID}" class="remove" onclick="remove('${productID}')">&nbsp;remove</span></p>
+                	<p style="margin: 0">Price: Php ${price}</p>
+            	</div>`
+            	document.getElementById("total").innerHTML = `Total: Php ${totalPrice}`
+
+            	shop.custOrder[`${productID}`] = {
+                	prod_name: name,
+                	prod_price: price,
+                	prod_number: productID
+            	}
+            	document.getElementById("order").value = JSON.stringify(shop.custOrder)
+
+            	productID += 1
+        		}
+
+        	function remove(x) {
+            	document.getElementById(x).remove()
+            	productCount -= 1
+            	totalPrice -= shop.custOrder[x].prod_price
+            	document.getElementById("total").innerHTML = `Total: ${totalPrice} Php`
+
+            	console.log(`Removing: ${shop.custOrder[x].prod_name}\nPrice: ${shop.custOrder[x].prod_price}`)
+            	delete shop.custOrder[x]
+            	refresh()
+
+            	if(productCount <= 0){
+                	document.getElementById("cart").innerHTML = `
+                	<p>Nothing Added Yet</p>`
+                	cart = false
+            	}
+
+            	document.getElementById("order").value = JSON.stringify(shop.custOrder)
+        	}
+
+        	function refresh() {
+            	let index = 1
+            	for(let x = 0; x < shop.custOrder.length; x++){
+                	if(shop.custOrder[x] === undefined){
+                    	shop.custOrder.splice(x, index)
+                    	x -= 1
+                	}
+            	}
+            	productID = shop.custOrder.length - 1
+            	for(let x = 0; x <= productID; x++){
+                	if (shop.custOrder[x].prod_number !== x){
+                    	document.getElementById(`${shop.custOrder[x].prod_number}`).id = `${x}`
+                    	document.getElementById(`remove${shop.custOrder[x].prod_number}`).setAttribute("onclick", `remove(${x})`)
+                    	document.getElementById(`remove${shop.custOrder[x].prod_number}`).id = `remove${x}`
+                    	shop.custOrder[x].prod_number = x
+                	}
+            	}
+            	productID = shop.custOrder.length
+        	}
+
+        	function tab(x) {
+            	document.getElementById("Category1").style.display = "none"
+            	document.getElementById("cat1").style.backgroundColor = ""
+            	document.getElementById("Category2").style.display = "none"
+            	document.getElementById("cat2").style.backgroundColor = ""
+            	document.getElementById("Category3").style.display = "none"
+            	document.getElementById("cat3").style.backgroundColor = ""
+            	document.getElementById("Category4").style.display = "none"
+            	document.getElementById("cat4").style.backgroundColor = ""
+            	document.getElementById(`Category${x}`).style.display = "block"
+            	document.getElementById(`cat${x}`).style.backgroundColor = "black"
+        	}
+        
+        	function check() {
+            	if(document.getElementById('name').value === ""){
+                	document.getElementById('name').name = ""
+            	}
+            	if(document.getElementById('email').value === ""){
+                	document.getElementById('email').name = ""
+            	}
+            	if(document.getElementById('address').value === ""){
+                	document.getElementById('address').name = ""
+            	}
+        	}
+        </script>
+    </body>
+</html>
+
